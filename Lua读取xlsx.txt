@@ -1,0 +1,5 @@
+﻿1.下载 lua-5.2.4 编译  查看build.bat
+2.下载mingw，只需要下载基础的即可
+3.下载 云风的luaxlsx-master, 修改makefile, 主要是配合mingw对于lua源码的路径.注意一定要lua52.dll放到msys\1.0\bin目录下
+4.可以通过云风的makefile增加.c文件生成导出的动态dll，不用写导出函数，vs必须要写导出函数，可以参考dllToLua项目
+5.实现目的p处理->lua.exe->lua文件->dll 交互

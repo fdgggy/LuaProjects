@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  dllToLua.cpp
+e:\software\enviriment tool\zip\lua\lua-5.2.4\lua-5.2.4\testlua\dlltolua\dlltolua.cpp(5): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+    正在创建库 .\Debug\dllToLua.lib 和对象 .\Debug\dllToLua.exp
+  dllToLua.vcxproj -> E:\SoftWare\Enviriment Tool\zip\Lua\lua-5.2.4\lua-5.2.4\TestLua\dllToLua\.\Debug\dllToLua.dll
+  dllToLua.vcxproj -> .\Debug\dllToLua.pdb (Partial PDB)

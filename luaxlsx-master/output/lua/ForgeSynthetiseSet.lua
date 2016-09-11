@@ -1,0 +1,39 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["nPropId"]=8002, 
+	["nCostType"]=0, 
+	["nType"]=0, 
+	["nNum"]=0, 
+	["nRawPropId"]=8001, 
+	["nRawPropNum"]=3, 
+},
+[2]={
+	["nIndex"]=2, 
+	["nPropId"]=8003, 
+	["nCostType"]=1, 
+	["nType"]=1, 
+	["nNum"]=2, 
+	["nRawPropId"]=8002, 
+	["nRawPropNum"]=3, 
+},
+[3]={
+	["nIndex"]=3, 
+	["nPropId"]=8005, 
+	["nCostType"]=0, 
+	["nType"]=0, 
+	["nNum"]=0, 
+	["nRawPropId"]=8004, 
+	["nRawPropNum"]=3, 
+},
+[4]={
+	["nIndex"]=4, 
+	["nPropId"]=8006, 
+	["nCostType"]=1, 
+	["nType"]=1, 
+	["nNum"]=5, 
+	["nRawPropId"]=8005, 
+	["nRawPropNum"]=3, 
+},
+}
+ return a;

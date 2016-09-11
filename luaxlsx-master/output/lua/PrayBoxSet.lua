@@ -1,0 +1,31 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["sBoxName"]="白银宝箱", 
+	["nNeedTime"]=3, 
+	["nDropNum"]=3, 
+	["nDropId"]=5001, 
+},
+[2]={
+	["nIndex"]=2, 
+	["sBoxName"]="黄金宝箱", 
+	["nNeedTime"]=8, 
+	["nDropNum"]=4, 
+	["nDropId"]=5001, 
+},
+[3]={
+	["nIndex"]=3, 
+	["sBoxName"]="钻石宝箱", 
+	["nNeedTime"]=12, 
+	["nDropNum"]=6, 
+	["nDropId"]=5001, 
+},
+[4]={
+	["nIndex"]=4, 
+	["sBoxName"]="超级宝箱", 
+	["nNeedTime"]=12, 
+	["nDropNum"]=8, 
+	["nDropId"]=5001, 
+},
+}
+ return a;

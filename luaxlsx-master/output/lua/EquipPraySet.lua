@@ -1,0 +1,403 @@
+local a = {
+[1]={
+	["nSuccedPer"]=1, 
+	["nNeedNum"]=650, 
+},
+[2]={
+	["nSuccedPer"]=2, 
+	["nNeedNum"]=800, 
+},
+[3]={
+	["nSuccedPer"]=3, 
+	["nNeedNum"]=950, 
+},
+[4]={
+	["nSuccedPer"]=4, 
+	["nNeedNum"]=1100, 
+},
+[5]={
+	["nSuccedPer"]=5, 
+	["nNeedNum"]=1250, 
+},
+[6]={
+	["nSuccedPer"]=6, 
+	["nNeedNum"]=1400, 
+},
+[7]={
+	["nSuccedPer"]=7, 
+	["nNeedNum"]=1550, 
+},
+[8]={
+	["nSuccedPer"]=8, 
+	["nNeedNum"]=1700, 
+},
+[9]={
+	["nSuccedPer"]=9, 
+	["nNeedNum"]=1850, 
+},
+[10]={
+	["nSuccedPer"]=10, 
+	["nNeedNum"]=2150, 
+},
+[11]={
+	["nSuccedPer"]=11, 
+	["nNeedNum"]=2300, 
+},
+[12]={
+	["nSuccedPer"]=12, 
+	["nNeedNum"]=2450, 
+},
+[13]={
+	["nSuccedPer"]=13, 
+	["nNeedNum"]=2600, 
+},
+[14]={
+	["nSuccedPer"]=14, 
+	["nNeedNum"]=2750, 
+},
+[15]={
+	["nSuccedPer"]=15, 
+	["nNeedNum"]=2900, 
+},
+[16]={
+	["nSuccedPer"]=16, 
+	["nNeedNum"]=3050, 
+},
+[17]={
+	["nSuccedPer"]=17, 
+	["nNeedNum"]=3200, 
+},
+[18]={
+	["nSuccedPer"]=18, 
+	["nNeedNum"]=3350, 
+},
+[19]={
+	["nSuccedPer"]=19, 
+	["nNeedNum"]=3500, 
+},
+[20]={
+	["nSuccedPer"]=20, 
+	["nNeedNum"]=4100, 
+},
+[21]={
+	["nSuccedPer"]=21, 
+	["nNeedNum"]=4250, 
+},
+[22]={
+	["nSuccedPer"]=22, 
+	["nNeedNum"]=4400, 
+},
+[23]={
+	["nSuccedPer"]=23, 
+	["nNeedNum"]=4550, 
+},
+[24]={
+	["nSuccedPer"]=24, 
+	["nNeedNum"]=4700, 
+},
+[25]={
+	["nSuccedPer"]=25, 
+	["nNeedNum"]=4850, 
+},
+[26]={
+	["nSuccedPer"]=26, 
+	["nNeedNum"]=5000, 
+},
+[27]={
+	["nSuccedPer"]=27, 
+	["nNeedNum"]=5150, 
+},
+[28]={
+	["nSuccedPer"]=28, 
+	["nNeedNum"]=5300, 
+},
+[29]={
+	["nSuccedPer"]=29, 
+	["nNeedNum"]=5450, 
+},
+[30]={
+	["nSuccedPer"]=30, 
+	["nNeedNum"]=6350, 
+},
+[31]={
+	["nSuccedPer"]=31, 
+	["nNeedNum"]=6500, 
+},
+[32]={
+	["nSuccedPer"]=32, 
+	["nNeedNum"]=6650, 
+},
+[33]={
+	["nSuccedPer"]=33, 
+	["nNeedNum"]=6800, 
+},
+[34]={
+	["nSuccedPer"]=34, 
+	["nNeedNum"]=6950, 
+},
+[35]={
+	["nSuccedPer"]=35, 
+	["nNeedNum"]=7100, 
+},
+[36]={
+	["nSuccedPer"]=36, 
+	["nNeedNum"]=7250, 
+},
+[37]={
+	["nSuccedPer"]=37, 
+	["nNeedNum"]=7400, 
+},
+[38]={
+	["nSuccedPer"]=38, 
+	["nNeedNum"]=7550, 
+},
+[39]={
+	["nSuccedPer"]=39, 
+	["nNeedNum"]=7700, 
+},
+[40]={
+	["nSuccedPer"]=40, 
+	["nNeedNum"]=8900, 
+},
+[41]={
+	["nSuccedPer"]=41, 
+	["nNeedNum"]=9050, 
+},
+[42]={
+	["nSuccedPer"]=42, 
+	["nNeedNum"]=9200, 
+},
+[43]={
+	["nSuccedPer"]=43, 
+	["nNeedNum"]=9350, 
+},
+[44]={
+	["nSuccedPer"]=44, 
+	["nNeedNum"]=9500, 
+},
+[45]={
+	["nSuccedPer"]=45, 
+	["nNeedNum"]=9650, 
+},
+[46]={
+	["nSuccedPer"]=46, 
+	["nNeedNum"]=9800, 
+},
+[47]={
+	["nSuccedPer"]=47, 
+	["nNeedNum"]=9950, 
+},
+[48]={
+	["nSuccedPer"]=48, 
+	["nNeedNum"]=10100, 
+},
+[49]={
+	["nSuccedPer"]=49, 
+	["nNeedNum"]=10250, 
+},
+[50]={
+	["nSuccedPer"]=50, 
+	["nNeedNum"]=11750, 
+},
+[51]={
+	["nSuccedPer"]=51, 
+	["nNeedNum"]=11900, 
+},
+[52]={
+	["nSuccedPer"]=52, 
+	["nNeedNum"]=12050, 
+},
+[53]={
+	["nSuccedPer"]=53, 
+	["nNeedNum"]=12200, 
+},
+[54]={
+	["nSuccedPer"]=54, 
+	["nNeedNum"]=12350, 
+},
+[55]={
+	["nSuccedPer"]=55, 
+	["nNeedNum"]=12500, 
+},
+[56]={
+	["nSuccedPer"]=56, 
+	["nNeedNum"]=12650, 
+},
+[57]={
+	["nSuccedPer"]=57, 
+	["nNeedNum"]=12800, 
+},
+[58]={
+	["nSuccedPer"]=58, 
+	["nNeedNum"]=12950, 
+},
+[59]={
+	["nSuccedPer"]=59, 
+	["nNeedNum"]=13100, 
+},
+[60]={
+	["nSuccedPer"]=60, 
+	["nNeedNum"]=14900, 
+},
+[61]={
+	["nSuccedPer"]=61, 
+	["nNeedNum"]=15050, 
+},
+[62]={
+	["nSuccedPer"]=62, 
+	["nNeedNum"]=15200, 
+},
+[63]={
+	["nSuccedPer"]=63, 
+	["nNeedNum"]=15350, 
+},
+[64]={
+	["nSuccedPer"]=64, 
+	["nNeedNum"]=15500, 
+},
+[65]={
+	["nSuccedPer"]=65, 
+	["nNeedNum"]=15650, 
+},
+[66]={
+	["nSuccedPer"]=66, 
+	["nNeedNum"]=15800, 
+},
+[67]={
+	["nSuccedPer"]=67, 
+	["nNeedNum"]=15950, 
+},
+[68]={
+	["nSuccedPer"]=68, 
+	["nNeedNum"]=16100, 
+},
+[69]={
+	["nSuccedPer"]=69, 
+	["nNeedNum"]=16250, 
+},
+[70]={
+	["nSuccedPer"]=70, 
+	["nNeedNum"]=18350, 
+},
+[71]={
+	["nSuccedPer"]=71, 
+	["nNeedNum"]=18500, 
+},
+[72]={
+	["nSuccedPer"]=72, 
+	["nNeedNum"]=18650, 
+},
+[73]={
+	["nSuccedPer"]=73, 
+	["nNeedNum"]=18800, 
+},
+[74]={
+	["nSuccedPer"]=74, 
+	["nNeedNum"]=18950, 
+},
+[75]={
+	["nSuccedPer"]=75, 
+	["nNeedNum"]=19100, 
+},
+[76]={
+	["nSuccedPer"]=76, 
+	["nNeedNum"]=19250, 
+},
+[77]={
+	["nSuccedPer"]=77, 
+	["nNeedNum"]=19400, 
+},
+[78]={
+	["nSuccedPer"]=78, 
+	["nNeedNum"]=19550, 
+},
+[79]={
+	["nSuccedPer"]=79, 
+	["nNeedNum"]=19700, 
+},
+[80]={
+	["nSuccedPer"]=80, 
+	["nNeedNum"]=22100, 
+},
+[81]={
+	["nSuccedPer"]=81, 
+	["nNeedNum"]=22250, 
+},
+[82]={
+	["nSuccedPer"]=82, 
+	["nNeedNum"]=22400, 
+},
+[83]={
+	["nSuccedPer"]=83, 
+	["nNeedNum"]=22550, 
+},
+[84]={
+	["nSuccedPer"]=84, 
+	["nNeedNum"]=22700, 
+},
+[85]={
+	["nSuccedPer"]=85, 
+	["nNeedNum"]=22850, 
+},
+[86]={
+	["nSuccedPer"]=86, 
+	["nNeedNum"]=23000, 
+},
+[87]={
+	["nSuccedPer"]=87, 
+	["nNeedNum"]=23150, 
+},
+[88]={
+	["nSuccedPer"]=88, 
+	["nNeedNum"]=23300, 
+},
+[89]={
+	["nSuccedPer"]=89, 
+	["nNeedNum"]=23450, 
+},
+[90]={
+	["nSuccedPer"]=90, 
+	["nNeedNum"]=26150, 
+},
+[91]={
+	["nSuccedPer"]=91, 
+	["nNeedNum"]=26300, 
+},
+[92]={
+	["nSuccedPer"]=92, 
+	["nNeedNum"]=26450, 
+},
+[93]={
+	["nSuccedPer"]=93, 
+	["nNeedNum"]=26600, 
+},
+[94]={
+	["nSuccedPer"]=94, 
+	["nNeedNum"]=26750, 
+},
+[95]={
+	["nSuccedPer"]=95, 
+	["nNeedNum"]=26900, 
+},
+[96]={
+	["nSuccedPer"]=96, 
+	["nNeedNum"]=27050, 
+},
+[97]={
+	["nSuccedPer"]=97, 
+	["nNeedNum"]=27200, 
+},
+[98]={
+	["nSuccedPer"]=98, 
+	["nNeedNum"]=27350, 
+},
+[99]={
+	["nSuccedPer"]=99, 
+	["nNeedNum"]=27500, 
+},
+[100]={
+	["nSuccedPer"]=100, 
+	["nNeedNum"]=30500, 
+},
+}
+ return a;

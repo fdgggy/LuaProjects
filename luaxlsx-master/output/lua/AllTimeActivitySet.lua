@@ -1,0 +1,36 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["sName"]="世界BOSS", 
+	["sTypeDesc"]="多人", 
+	["sDesc"]="元宝、经验", 
+	["sIcon"]="bg1", 
+	["sOpenTime"]="12:00", 
+	["sCloseTime"]="13:00", 
+	["nTargetId"]=0, 
+	["nSystemId"]=10001, 
+},
+[2]={
+	["nIndex"]=2, 
+	["sName"]="帮会篝火", 
+	["sTypeDesc"]="个人", 
+	["sDesc"]="经验、帮派资金", 
+	["sIcon"]="bg1", 
+	["sOpenTime"]="12:00", 
+	["sCloseTime"]="13:00", 
+	["nTargetId"]=0, 
+	["nSystemId"]=10002, 
+},
+[3]={
+	["nIndex"]=3, 
+	["sName"]="帮派BOSS", 
+	["sTypeDesc"]="多人", 
+	["sDesc"]="元宝、经验", 
+	["sIcon"]="bg1", 
+	["sOpenTime"]="12:00", 
+	["sCloseTime"]="13:00", 
+	["nTargetId"]=0, 
+	["nSystemId"]=10003, 
+},
+}
+ return a;

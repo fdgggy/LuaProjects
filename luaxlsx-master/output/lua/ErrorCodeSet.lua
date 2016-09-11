@@ -1,0 +1,275 @@
+local a = {
+[0]={
+	["nErrorCode"]=0, 
+	["sErrorDesc"]="成功", 
+},
+[-1]={
+	["nErrorCode"]=-1, 
+	["sErrorDesc"]="错误", 
+},
+[-2]={
+	["nErrorCode"]=-2, 
+	["sErrorDesc"]="登录失败", 
+},
+[-3]={
+	["nErrorCode"]=-3, 
+	["sErrorDesc"]="您的名字有误", 
+},
+[-4]={
+	["nErrorCode"]=-4, 
+	["sErrorDesc"]="您的名字过短", 
+},
+[-5]={
+	["nErrorCode"]=-5, 
+	["sErrorDesc"]="该名字已被使用", 
+},
+[-6]={
+	["nErrorCode"]=-6, 
+	["sErrorDesc"]="改名卡不足", 
+},
+[-13]={
+	["nErrorCode"]=-13, 
+	["sErrorDesc"]="任务未完成", 
+},
+[-14]={
+	["nErrorCode"]=-14, 
+	["sErrorDesc"]="元宝不足！", 
+},
+[-15]={
+	["nErrorCode"]=-15, 
+	["sErrorDesc"]="正处在挑战状态中", 
+},
+[-16]={
+	["nErrorCode"]=-16, 
+	["sErrorDesc"]="当前次数不足", 
+},
+[-17]={
+	["nErrorCode"]=-17, 
+	["sErrorDesc"]="宝箱已经满了，挑战无效", 
+},
+[-18]={
+	["nErrorCode"]=-18, 
+	["sErrorDesc"]="解锁的宝箱非法数据", 
+},
+[-200]={
+	["nErrorCode"]=-200, 
+	["sErrorDesc"]="删除邮件失败", 
+},
+[-201]={
+	["nErrorCode"]=-201, 
+	["sErrorDesc"]="boss没有解锁", 
+},
+[-202]={
+	["nErrorCode"]=-202, 
+	["sErrorDesc"]="精力不足", 
+},
+[-203]={
+	["nErrorCode"]=-203, 
+	["sErrorDesc"]="怪物不能扫荡", 
+},
+[-204]={
+	["nErrorCode"]=-204, 
+	["sErrorDesc"]="排名不足", 
+},
+[-205]={
+	["nErrorCode"]=-205, 
+	["sErrorDesc"]="非法对手", 
+},
+[-206]={
+	["nErrorCode"]=-206, 
+	["sErrorDesc"]="战力不足", 
+},
+[-207]={
+	["nErrorCode"]=-207, 
+	["sErrorDesc"]="已膜拜", 
+},
+[-208]={
+	["nErrorCode"]=-208, 
+	["sErrorDesc"]="没有匹配怪物", 
+},
+[-209]={
+	["nErrorCode"]=-209, 
+	["sErrorDesc"]="坐骑等级不足", 
+},
+[-210]={
+	["nErrorCode"]=-210, 
+	["sErrorDesc"]="升级素材不足", 
+},
+[-211]={
+	["nErrorCode"]=-211, 
+	["sErrorDesc"]="已经最高等级", 
+},
+[-300]={
+	["nErrorCode"]=-300, 
+	["sErrorDesc"]="所需货币不足", 
+},
+[-301]={
+	["nErrorCode"]=-301, 
+	["sErrorDesc"]="性别错误", 
+},
+[-302]={
+	["nErrorCode"]=-302, 
+	["sErrorDesc"]="没有这个副本配置", 
+},
+[-303]={
+	["nErrorCode"]=-303, 
+	["sErrorDesc"]="体力不足", 
+},
+[-304]={
+	["nErrorCode"]=-304, 
+	["sErrorDesc"]="尚未开启该关卡", 
+},
+[-305]={
+	["nErrorCode"]=-305, 
+	["sErrorDesc"]="挑战次数不足", 
+},
+[-306]={
+	["nErrorCode"]=-306, 
+	["sErrorDesc"]="不在关卡内", 
+},
+[-307]={
+	["nErrorCode"]=-307, 
+	["sErrorDesc"]="已经领取过了", 
+},
+[-308]={
+	["nErrorCode"]=-308, 
+	["sErrorDesc"]="没有这个宝箱", 
+},
+[-309]={
+	["nErrorCode"]=-309, 
+	["sErrorDesc"]="没有宝箱奖励", 
+},
+[-310]={
+	["nErrorCode"]=-310, 
+	["sErrorDesc"]="章节错误", 
+},
+[-311]={
+	["nErrorCode"]=-311, 
+	["sErrorDesc"]="奖励物品错误", 
+},
+[-312]={
+	["nErrorCode"]=-312, 
+	["sErrorDesc"]="没有这件装备", 
+},
+[-313]={
+	["nErrorCode"]=-313, 
+	["sErrorDesc"]="已达升星上限", 
+},
+[-314]={
+	["nErrorCode"]=-314, 
+	["sErrorDesc"]="材料不足", 
+},
+[-315]={
+	["nErrorCode"]=-315, 
+	["sErrorDesc"]="幸运值不足", 
+},
+[-316]={
+	["nErrorCode"]=-316, 
+	["sErrorDesc"]="本职业不适合", 
+},
+[-317]={
+	["nErrorCode"]=-317, 
+	["sErrorDesc"]="等级不足", 
+},
+[-318]={
+	["nErrorCode"]=-318, 
+	["sErrorDesc"]="已上阵同类型的伙伴", 
+},
+[-319]={
+	["nErrorCode"]=-319, 
+	["sErrorDesc"]="您已有队伍", 
+},
+[-320]={
+	["nErrorCode"]=-320, 
+	["sErrorDesc"]="队伍已满员", 
+},
+[-321]={
+	["nErrorCode"]=-321, 
+	["sErrorDesc"]="此队伍正在副本中", 
+},
+[-322]={
+	["nErrorCode"]=-322, 
+	["sErrorDesc"]="队伍已失效", 
+},
+[-323]={
+	["nErrorCode"]=-323, 
+	["sErrorDesc"]="余额不足，购买失败", 
+},
+[-324]={
+	["nErrorCode"]=-324, 
+	["sErrorDesc"]="已达购买上限", 
+},
+[-325]={
+	["nErrorCode"]=-325, 
+	["sErrorDesc"]="已购买过", 
+},
+[-326]={
+	["nErrorCode"]=-326, 
+	["sErrorDesc"]="体力不足", 
+},
+[-327]={
+	["nErrorCode"]=-327, 
+	["sErrorDesc"]="副本未开启", 
+},
+[-328]={
+	["nErrorCode"]=-328, 
+	["sErrorDesc"]="队员未准备", 
+},
+[-400]={
+	["nErrorCode"]=-400, 
+	["sErrorDesc"]="道具不够", 
+},
+[-401]={
+	["nErrorCode"]=-401, 
+	["sErrorDesc"]="抓妖失败", 
+},
+[-500]={
+	["nErrorCode"]=-500, 
+	["sErrorDesc"]="邀请信息已失效", 
+},
+[-501]={
+	["nErrorCode"]=-501, 
+	["sErrorDesc"]="已有帮派", 
+},
+[-502]={
+	["nErrorCode"]=-502, 
+	["sErrorDesc"]="当前帮派已满员", 
+},
+[-503]={
+	["nErrorCode"]=-503, 
+	["sErrorDesc"]="没有此帮派", 
+},
+[-504]={
+	["nErrorCode"]=-504, 
+	["sErrorDesc"]="当前宝箱已被其他成员开启", 
+},
+[-505]={
+	["nErrorCode"]=-505, 
+	["sErrorDesc"]="已到达今天开启宝箱上限", 
+},
+[-506]={
+	["nErrorCode"]=-506, 
+	["sErrorDesc"]="已经领取过此宝箱奖励", 
+},
+[-507]={
+	["nErrorCode"]=-507, 
+	["sErrorDesc"]="弹劾帮主条件不符合", 
+},
+[-508]={
+	["nErrorCode"]=-508, 
+	["sErrorDesc"]="已有其他帮派成员弹劾帮主，暂时无法弹劾", 
+},
+[-509]={
+	["nErrorCode"]=-509, 
+	["sErrorDesc"]="已经投过票了", 
+},
+[-510]={
+	["nErrorCode"]=-510, 
+	["sErrorDesc"]="战力不足，无法申请帮派", 
+},
+[-9999]={
+	["nErrorCode"]=-9999, 
+	["sErrorDesc"]="未知错误", 
+},
+}
+ return a;

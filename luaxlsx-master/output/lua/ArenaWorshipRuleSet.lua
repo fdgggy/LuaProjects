@@ -1,0 +1,57 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["nRank"]=1, 
+	["nGroup"]=3, 
+	["nDropId"]=5002, 
+},
+[2]={
+	["nIndex"]=2, 
+	["nRank"]=2, 
+	["nGroup"]=3, 
+	["nDropId"]=5002, 
+},
+[3]={
+	["nIndex"]=3, 
+	["nRank"]=3, 
+	["nGroup"]=3, 
+	["nDropId"]=5002, 
+},
+[4]={
+	["nIndex"]=4, 
+	["nRank"]=1, 
+	["nGroup"]=2, 
+	["nDropId"]=5002, 
+},
+[5]={
+	["nIndex"]=5, 
+	["nRank"]=2, 
+	["nGroup"]=2, 
+	["nDropId"]=5002, 
+},
+[6]={
+	["nIndex"]=6, 
+	["nRank"]=3, 
+	["nGroup"]=2, 
+	["nDropId"]=5002, 
+},
+[7]={
+	["nIndex"]=7, 
+	["nRank"]=1, 
+	["nGroup"]=1, 
+	["nDropId"]=5002, 
+},
+[8]={
+	["nIndex"]=8, 
+	["nRank"]=2, 
+	["nGroup"]=1, 
+	["nDropId"]=5002, 
+},
+[9]={
+	["nIndex"]=9, 
+	["nRank"]=3, 
+	["nGroup"]=1, 
+	["nDropId"]=5002, 
+},
+}
+ return a;

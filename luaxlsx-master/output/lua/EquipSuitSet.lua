@@ -1,0 +1,29 @@
+local a = {
+[1]={
+	["nId"]=1, 
+	["sName"]="狂暴", 
+	["nType1"]=1, 
+	["nEnum1"]=4, 
+	["nValue1"]=10, 
+	["nType2"]=1, 
+	["nEnum2"]=5, 
+	["nValue2"]=5, 
+	["nType3"]=1, 
+	["nEnum3"]=6, 
+	["nValue3"]=20, 
+},
+[2]={
+	["nId"]=2, 
+	["sName"]="愤怒", 
+	["nType1"]=1, 
+	["nEnum1"]=5, 
+	["nValue1"]=20, 
+	["nType2"]=1, 
+	["nEnum2"]=5, 
+	["nValue2"]=10, 
+	["nType3"]=1, 
+	["nEnum3"]=6, 
+	["nValue3"]=40, 
+},
+}
+ return a;

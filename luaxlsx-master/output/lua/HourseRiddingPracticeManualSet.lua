@@ -1,0 +1,66 @@
+local a = {
+[1]={
+	["nPracticeStep"]=1, 
+	["nPracticeName"]=19, 
+	["sGradientTop"]="F6F6F5FF", 
+	["sGradientBottom"]="5A5B5BFF", 
+	["sEffectColor"]="2E2D2DFF", 
+},
+[2]={
+	["nPracticeStep"]=2, 
+	["nPracticeName"]=20, 
+	["sGradientTop"]="ABE44AFF", 
+	["sGradientBottom"]="2D6A07FF", 
+	["sEffectColor"]="123F03FF", 
+},
+[3]={
+	["nPracticeStep"]=3, 
+	["nPracticeName"]=21, 
+	["sGradientTop"]="8AC9FAFF", 
+	["sGradientBottom"]="0B44BCFF", 
+	["sEffectColor"]="050B35FF", 
+},
+[4]={
+	["nPracticeStep"]=4, 
+	["nPracticeName"]=22, 
+	["sGradientTop"]="FEC6F3FF", 
+	["sGradientBottom"]="B60FF1FF", 
+	["sEffectColor"]="310633FF", 
+},
+[5]={
+	["nPracticeStep"]=5, 
+	["nPracticeName"]=23, 
+	["sGradientTop"]="FED102FF", 
+	["sGradientBottom"]="DC6502FF", 
+	["sEffectColor"]="2E1504FF", 
+},
+[6]={
+	["nPracticeStep"]=6, 
+	["nPracticeName"]=24, 
+	["sGradientTop"]="CDD351FF", 
+	["sGradientBottom"]="FBDE03FF", 
+	["sEffectColor"]="2D2806FF", 
+},
+[7]={
+	["nPracticeStep"]=7, 
+	["nPracticeName"]=25, 
+	["sGradientTop"]="DC5F01FF", 
+	["sGradientBottom"]="B30602FF", 
+	["sEffectColor"]="370505FF", 
+},
+[8]={
+	["nPracticeStep"]=8, 
+	["nPracticeName"]=26, 
+	["sGradientTop"]="DC5F02FF", 
+	["sGradientBottom"]="B30603FF", 
+	["sEffectColor"]="370506FF", 
+},
+[9]={
+	["nPracticeStep"]=9, 
+	["nPracticeName"]=27, 
+	["sGradientTop"]="DC5F03FF", 
+	["sGradientBottom"]="B30604FF", 
+	["sEffectColor"]="370507FF", 
+},
+}
+ return a;

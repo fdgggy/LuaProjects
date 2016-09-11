@@ -1,0 +1,57 @@
+local a = {
+[1]={
+	["nIndexId"]=1, 
+	["nArrayId"]=1, 
+	["nIndex"]=1, 
+	["nNeedLevel"]=1, 
+},
+[2]={
+	["nIndexId"]=2, 
+	["nArrayId"]=1, 
+	["nIndex"]=2, 
+	["nNeedLevel"]=40, 
+},
+[3]={
+	["nIndexId"]=3, 
+	["nArrayId"]=1, 
+	["nIndex"]=3, 
+	["nNeedLevel"]=45, 
+},
+[4]={
+	["nIndexId"]=4, 
+	["nArrayId"]=2, 
+	["nIndex"]=1, 
+	["nNeedLevel"]=40, 
+},
+[5]={
+	["nIndexId"]=5, 
+	["nArrayId"]=2, 
+	["nIndex"]=2, 
+	["nNeedLevel"]=50, 
+},
+[6]={
+	["nIndexId"]=6, 
+	["nArrayId"]=2, 
+	["nIndex"]=3, 
+	["nNeedLevel"]=60, 
+},
+[7]={
+	["nIndexId"]=7, 
+	["nArrayId"]=3, 
+	["nIndex"]=1, 
+	["nNeedLevel"]=70, 
+},
+[8]={
+	["nIndexId"]=8, 
+	["nArrayId"]=3, 
+	["nIndex"]=2, 
+	["nNeedLevel"]=80, 
+},
+[9]={
+	["nIndexId"]=9, 
+	["nArrayId"]=3, 
+	["nIndex"]=3, 
+	["nNeedLevel"]=90, 
+},
+}
+ return a;

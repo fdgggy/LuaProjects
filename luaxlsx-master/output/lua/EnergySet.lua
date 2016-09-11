@@ -1,0 +1,43 @@
+local a = {
+[1]={
+	["nCnt"]=1, 
+	["nDiamond"]=20, 
+},
+[2]={
+	["nCnt"]=2, 
+	["nDiamond"]=20, 
+},
+[3]={
+	["nCnt"]=3, 
+	["nDiamond"]=20, 
+},
+[4]={
+	["nCnt"]=4, 
+	["nDiamond"]=50, 
+},
+[5]={
+	["nCnt"]=5, 
+	["nDiamond"]=50, 
+},
+[6]={
+	["nCnt"]=6, 
+	["nDiamond"]=50, 
+},
+[7]={
+	["nCnt"]=7, 
+	["nDiamond"]=100, 
+},
+[8]={
+	["nCnt"]=8, 
+	["nDiamond"]=100, 
+},
+[9]={
+	["nCnt"]=9, 
+	["nDiamond"]=200, 
+},
+[10]={
+	["nCnt"]=10, 
+	["nDiamond"]=200, 
+},
+}
+ return a;

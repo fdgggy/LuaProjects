@@ -1,0 +1,45 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["nType"]=1, 
+	["nLevel"]=10, 
+	["nAIId"]=1111, 
+},
+[2]={
+	["nIndex"]=2, 
+	["nType"]=1, 
+	["nLevel"]=20, 
+	["nAIId"]=1112, 
+},
+[3]={
+	["nIndex"]=3, 
+	["nType"]=1, 
+	["nLevel"]=30, 
+	["nAIId"]=1113, 
+},
+[4]={
+	["nIndex"]=4, 
+	["nType"]=1, 
+	["nLevel"]=40, 
+	["nAIId"]=1114, 
+},
+[5]={
+	["nIndex"]=5, 
+	["nType"]=1, 
+	["nLevel"]=50, 
+	["nAIId"]=1115, 
+},
+[6]={
+	["nIndex"]=6, 
+	["nType"]=1, 
+	["nLevel"]=60, 
+	["nAIId"]=1116, 
+},
+[7]={
+	["nIndex"]=7, 
+	["nType"]=2, 
+	["nLevel"]=1, 
+	["nAIId"]=0, 
+},
+}
+ return a;

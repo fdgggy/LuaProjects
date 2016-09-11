@@ -1,0 +1,123 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["nQualityId"]=1, 
+	["nNum"]=0, 
+	["nWeight"]=4000, 
+},
+[2]={
+	["nIndex"]=2, 
+	["nQualityId"]=1, 
+	["nNum"]=1, 
+	["nWeight"]=2000, 
+},
+[3]={
+	["nIndex"]=3, 
+	["nQualityId"]=2, 
+	["nNum"]=0, 
+	["nWeight"]=1000, 
+},
+[4]={
+	["nIndex"]=4, 
+	["nQualityId"]=2, 
+	["nNum"]=1, 
+	["nWeight"]=4000, 
+},
+[5]={
+	["nIndex"]=5, 
+	["nQualityId"]=2, 
+	["nNum"]=2, 
+	["nWeight"]=3000, 
+},
+[6]={
+	["nIndex"]=6, 
+	["nQualityId"]=3, 
+	["nNum"]=1, 
+	["nWeight"]=3000, 
+},
+[7]={
+	["nIndex"]=7, 
+	["nQualityId"]=3, 
+	["nNum"]=2, 
+	["nWeight"]=3000, 
+},
+[8]={
+	["nIndex"]=8, 
+	["nQualityId"]=3, 
+	["nNum"]=3, 
+	["nWeight"]=2000, 
+},
+[9]={
+	["nIndex"]=9, 
+	["nQualityId"]=4, 
+	["nNum"]=2, 
+	["nWeight"]=3000, 
+},
+[10]={
+	["nIndex"]=10, 
+	["nQualityId"]=4, 
+	["nNum"]=3, 
+	["nWeight"]=3000, 
+},
+[11]={
+	["nIndex"]=11, 
+	["nQualityId"]=4, 
+	["nNum"]=4, 
+	["nWeight"]=2000, 
+},
+[12]={
+	["nIndex"]=12, 
+	["nQualityId"]=5, 
+	["nNum"]=3, 
+	["nWeight"]=4000, 
+},
+[13]={
+	["nIndex"]=13, 
+	["nQualityId"]=5, 
+	["nNum"]=4, 
+	["nWeight"]=4000, 
+},
+[14]={
+	["nIndex"]=14, 
+	["nQualityId"]=5, 
+	["nNum"]=5, 
+	["nWeight"]=2000, 
+},
+[15]={
+	["nIndex"]=15, 
+	["nQualityId"]=5, 
+	["nNum"]=6, 
+	["nWeight"]=1000, 
+},
+[16]={
+	["nIndex"]=16, 
+	["nQualityId"]=6, 
+	["nNum"]=4, 
+	["nWeight"]=2000, 
+},
+[17]={
+	["nIndex"]=17, 
+	["nQualityId"]=6, 
+	["nNum"]=5, 
+	["nWeight"]=4000, 
+},
+[18]={
+	["nIndex"]=18, 
+	["nQualityId"]=6, 
+	["nNum"]=6, 
+	["nWeight"]=3000, 
+},
+[19]={
+	["nIndex"]=19, 
+	["nQualityId"]=6, 
+	["nNum"]=7, 
+	["nWeight"]=1500, 
+},
+[20]={
+	["nIndex"]=20, 
+	["nQualityId"]=6, 
+	["nNum"]=8, 
+	["nWeight"]=500, 
+},
+}
+ return a;

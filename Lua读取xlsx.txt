@@ -3,3 +3,5 @@
 3.下载 云风的luaxlsx-master, 修改makefile, 主要是配合mingw对于lua源码的路径.注意一定要lua52.dll放到msys\1.0\bin目录下
 4.可以通过云风的makefile增加.c文件生成导出的动态dll，不用写导出函数，vs必须要写导出函数，可以参考dllToLua项目
 5.实现目的p处理->lua.exe->lua文件->dll 交互
+6.注意，需要把lua52.dll 替换一下，因为编译条件没有设为LUA_COMPAT_MODULE，会报module的错
+  同时需要换workbook.lua

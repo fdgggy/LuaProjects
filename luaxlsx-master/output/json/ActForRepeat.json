@@ -1,0 +1,30 @@
+{
+"airFall":{
+	"actName":"airFall", 
+	"isRepeat":1 
+},
+"airRaise":{
+	"actName":"airRaise", 
+	"isRepeat":1 
+},
+"run":{
+	"actName":"run", 
+	"isRepeat":1 
+},
+"stand":{
+	"actName":"stand", 
+	"isRepeat":1 
+},
+"jumpRaise":{
+	"actName":"jumpRaise", 
+	"isRepeat":1 
+},
+"jumpFall":{
+	"actName":"jumpFall", 
+	"isRepeat":1 
+},
+"winLoop":{
+	"actName":"winLoop", 
+	"isRepeat":1 
+}
+}

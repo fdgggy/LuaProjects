@@ -1,0 +1,33 @@
+local a = {
+["sSexPrice"]={
+	["sKey"]="sSexPrice", 
+	["nCurrType"]=2, 
+	["nValue"]=100, 
+	["sDesc"]="改变性别的费用", 
+},
+["sDirectOpenPrice"]={
+	["sKey"]="sDirectOpenPrice", 
+	["nCurrType"]=2, 
+	["nValue"]=1, 
+	["sDesc"]="根据开启祈愿宝箱剩余时间每10分钟1元宝", 
+},
+["sDrawCardPrice1"]={
+	["sKey"]="sDrawCardPrice1", 
+	["nCurrType"]=2, 
+	["nValue"]=90, 
+	["sDesc"]="第1次付费翻牌的价格", 
+},
+["sDrawCardPrice2"]={
+	["sKey"]="sDrawCardPrice2", 
+	["nCurrType"]=2, 
+	["nValue"]=90, 
+	["sDesc"]="第2次付费翻牌的价格", 
+},
+["sDrawCardPrice3"]={
+	["sKey"]="sDrawCardPrice3", 
+	["nCurrType"]=2, 
+	["nValue"]=90, 
+	["sDesc"]="第3次付费翻牌的价格", 
+},
+}
+ return a;

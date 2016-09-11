@@ -1,0 +1,228 @@
+local a = {
+[1]={
+	["nIndex"]=1, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11113, 
+},
+[2]={
+	["nIndex"]=2, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11123, 
+},
+[3]={
+	["nIndex"]=3, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11133, 
+},
+[4]={
+	["nIndex"]=4, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11143, 
+},
+[5]={
+	["nIndex"]=5, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11153, 
+},
+[6]={
+	["nIndex"]=6, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11163, 
+},
+[7]={
+	["nIndex"]=7, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11213, 
+},
+[8]={
+	["nIndex"]=8, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11223, 
+},
+[9]={
+	["nIndex"]=9, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11233, 
+},
+[10]={
+	["nIndex"]=10, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11243, 
+},
+[11]={
+	["nIndex"]=11, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11253, 
+},
+[12]={
+	["nIndex"]=12, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11114, 
+},
+[13]={
+	["nIndex"]=13, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11124, 
+},
+[14]={
+	["nIndex"]=14, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11134, 
+},
+[15]={
+	["nIndex"]=15, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11144, 
+},
+[16]={
+	["nIndex"]=16, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11154, 
+},
+[17]={
+	["nIndex"]=17, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11164, 
+},
+[18]={
+	["nIndex"]=18, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11214, 
+},
+[19]={
+	["nIndex"]=19, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11224, 
+},
+[20]={
+	["nIndex"]=20, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11234, 
+},
+[21]={
+	["nIndex"]=21, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11244, 
+},
+[22]={
+	["nIndex"]=22, 
+	["nForgeLv"]=1, 
+	["nPropId"]=11254, 
+},
+[23]={
+	["nIndex"]=23, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11115, 
+},
+[24]={
+	["nIndex"]=24, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11125, 
+},
+[25]={
+	["nIndex"]=25, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11135, 
+},
+[26]={
+	["nIndex"]=26, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11145, 
+},
+[27]={
+	["nIndex"]=27, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11155, 
+},
+[28]={
+	["nIndex"]=28, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11165, 
+},
+[29]={
+	["nIndex"]=29, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11215, 
+},
+[30]={
+	["nIndex"]=30, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11225, 
+},
+[31]={
+	["nIndex"]=31, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11235, 
+},
+[32]={
+	["nIndex"]=32, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11245, 
+},
+[33]={
+	["nIndex"]=33, 
+	["nForgeLv"]=2, 
+	["nPropId"]=11255, 
+},
+[34]={
+	["nIndex"]=34, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11116, 
+},
+[35]={
+	["nIndex"]=35, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11126, 
+},
+[36]={
+	["nIndex"]=36, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11136, 
+},
+[37]={
+	["nIndex"]=37, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11146, 
+},
+[38]={
+	["nIndex"]=38, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11156, 
+},
+[39]={
+	["nIndex"]=39, 
+	["nForgeLv"]=3, 
+	["nPropId"]=11166, 
+},
+[40]={
+	["nIndex"]=40, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11216, 
+},
+[41]={
+	["nIndex"]=41, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11226, 
+},
+[42]={
+	["nIndex"]=42, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11236, 
+},
+[43]={
+	["nIndex"]=43, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11246, 
+},
+[44]={
+	["nIndex"]=44, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11256, 
+},
+[45]={
+	["nIndex"]=45, 
+	["nForgeLv"]=4, 
+	["nPropId"]=11266, 
+},
+}
+ return a;

@@ -1,6 +1,5 @@
-
 @echo off
 SET CUR_PATH=%cd%
-lua.exe luaTest.lua %cd%
+.\luaXls\lua.exe .\luaXls\Excuse1.lua %cd%
 @pause
 exit

@@ -1,0 +1,98 @@
+local a = {
+["nDefaultRank"]={
+	["sKey"]="nDefaultRank", 
+	["sDesc"]="默认排名", 
+	["nValue"]=2003, 
+},
+["nDefaultGroup"]={
+	["sKey"]="nDefaultGroup", 
+	["sDesc"]="默认段位", 
+	["nValue"]=3, 
+},
+["nRankRewardTime"]={
+	["sKey"]="nRankRewardTime", 
+	["sDesc"]="发放排名奖励时间", 
+	["nValue"]=21, 
+},
+["nBattleCost"]={
+	["sKey"]="nBattleCost", 
+	["sDesc"]="每次挑战消耗精力值", 
+	["nValue"]=10, 
+},
+["nWinAwardGold"]={
+	["sKey"]="nWinAwardGold", 
+	["sDesc"]="战胜奖励银两", 
+	["nValue"]=7500, 
+},
+["nWinAwardPvp"]={
+	["sKey"]="nWinAwardPvp", 
+	["sDesc"]="战胜奖励斗法币", 
+	["nValue"]=1500, 
+},
+["nLoseAwardGold"]={
+	["sKey"]="nLoseAwardGold", 
+	["sDesc"]="战败收益银两", 
+	["nValue"]=5000, 
+},
+["nLoseAwardPvp"]={
+	["sKey"]="nLoseAwardPvp", 
+	["sDesc"]="战败收益斗法币", 
+	["nValue"]=1000, 
+},
+["nWinAwardDropId"]={
+	["sKey"]="nWinAwardDropId", 
+	["sDesc"]="战胜奖励掉落包Id", 
+	["nValue"]=102, 
+},
+["nLoseAwardDropId"]={
+	["sKey"]="nLoseAwardDropId", 
+	["sDesc"]="战败收益掉落包Id", 
+	["nValue"]=101, 
+},
+["nBattleLogMaxNum"]={
+	["sKey"]="nBattleLogMaxNum", 
+	["sDesc"]="最大战斗日志储存个数", 
+	["nValue"]=30, 
+},
+["nQuickBattleTimes"]={
+	["sKey"]="nQuickBattleTimes", 
+	["sDesc"]="快速战斗次数", 
+	["nValue"]=10, 
+},
+["nMatchPlayerNum"]={
+	["sKey"]="nMatchPlayerNum", 
+	["sDesc"]="随机对手个数", 
+	["nValue"]=4, 
+},
+["nArenaRaidId1"]={
+	["sKey"]="nArenaRaidId1", 
+	["sDesc"]="对战副本Id", 
+	["nValue"]=99999, 
+},
+["nArenaRaidId2"]={
+	["sKey"]="nArenaRaidId2", 
+	["sDesc"]="对战副本Id", 
+	["nValue"]=99999, 
+},
+["nArenaRaidId3"]={
+	["sKey"]="nArenaRaidId3", 
+	["sDesc"]="对战副本Id", 
+	["nValue"]=99999, 
+},
+["nGroup1Count"]={
+	["sKey"]="nGroup1Count", 
+	["sDesc"]="第一重天总人数", 
+	["nValue"]=1000, 
+},
+["nGroup2Count"]={
+	["sKey"]="nGroup2Count", 
+	["sDesc"]="第二重天总人数", 
+	["nValue"]=1000, 
+},
+["nGroup3Count"]={
+	["sKey"]="nGroup3Count", 
+	["sDesc"]="第三重天总人数", 
+	["nValue"]=3500, 
+},
+}
+ return a;

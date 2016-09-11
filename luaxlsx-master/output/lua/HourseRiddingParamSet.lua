@@ -1,0 +1,88 @@
+local a = {
+["nDefaultLevel"]={
+	["sKey"]="nDefaultLevel", 
+	["nValue"]=1, 
+	["sDesc"]="默认等级", 
+},
+["nDefaultStep"]={
+	["sKey"]="nDefaultStep", 
+	["nValue"]=1, 
+	["sDesc"]="默认进阶", 
+},
+["nDefaultPractice"]={
+	["sKey"]="nDefaultPractice", 
+	["nValue"]=1, 
+	["sDesc"]="默认修炼", 
+},
+["useitem1"]={
+	["sKey"]="useitem1", 
+	["nValue"]=5170, 
+	["sDesc"]="升级所需道具ID1", 
+},
+["useitem2"]={
+	["sKey"]="useitem2", 
+	["nValue"]=5171, 
+	["sDesc"]="升级所需道具ID2", 
+},
+["useitem3"]={
+	["sKey"]="useitem3", 
+	["nValue"]=5172, 
+	["sDesc"]="升级所需道具ID3", 
+},
+["useitem4"]={
+	["sKey"]="useitem4", 
+	["nValue"]=5173, 
+	["sDesc"]="升级所需道具ID4", 
+},
+["itemvalue1"]={
+	["sKey"]="itemvalue1", 
+	["nValue"]=100, 
+	["sDesc"]="道具1增加经验", 
+},
+["itemvalue2"]={
+	["sKey"]="itemvalue2", 
+	["nValue"]=500, 
+	["sDesc"]="道具2增加经验", 
+},
+["itemvalue3"]={
+	["sKey"]="itemvalue3", 
+	["nValue"]=1000, 
+	["sDesc"]="道具3增加经验", 
+},
+["itemvalue4"]={
+	["sKey"]="itemvalue4", 
+	["nValue"]=5000, 
+	["sDesc"]="道具4增加经验", 
+},
+["nLuckyProp"]={
+	["sKey"]="nLuckyProp", 
+	["nValue"]=5180, 
+	["sDesc"]="抽奖所需道具ID", 
+},
+["nLuckyCost1"]={
+	["sKey"]="nLuckyCost1", 
+	["nValue"]=30, 
+	["sDesc"]="抽奖单次元宝费用", 
+},
+["nLuckyCost10"]={
+	["sKey"]="nLuckyCost10", 
+	["nValue"]=280, 
+	["sDesc"]="抽奖10次元宝费用", 
+},
+["nLuckyPropAddScore"]={
+	["sKey"]="nLuckyPropAddScore", 
+	["nValue"]=10, 
+	["sDesc"]="抽奖1次积累积分", 
+},
+["nLuckyCostAddScore1"]={
+	["sKey"]="nLuckyCostAddScore1", 
+	["nValue"]=20, 
+	["sDesc"]="抽奖单次元宝累积积分", 
+},
+["nLuckyCostAddScore10"]={
+	["sKey"]="nLuckyCostAddScore10", 
+	["nValue"]=200, 
+	["sDesc"]="抽奖10次元宝累积积分", 
+},
+}
+ return a;

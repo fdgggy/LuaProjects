@@ -1,0 +1,503 @@
+local a = {
+["sInitName"]={
+	["sKey"]="sInitName", 
+	["sDesc"]="初始名字", 
+	["sValue"]="少年英雄", 
+},
+["sWorldTalkLmtLv"]={
+	["sKey"]="sWorldTalkLmtLv", 
+	["sDesc"]="世界频道发言等级限制", 
+	["sValue"]="20", 
+},
+["sWorldTalkCD"]={
+	["sKey"]="sWorldTalkCD", 
+	["sDesc"]="世界频道发言CD秒", 
+	["sValue"]="30", 
+},
+["sGangTalkCD"]={
+	["sKey"]="sGangTalkCD", 
+	["sDesc"]="帮派发言CD秒", 
+	["sValue"]="5", 
+},
+["sTeamTalkCD"]={
+	["sKey"]="sTeamTalkCD", 
+	["sDesc"]="组队发言CD秒", 
+	["sValue"]="1", 
+},
+["sInputCharatorLmt"]={
+	["sKey"]="sInputCharatorLmt", 
+	["sDesc"]="输入字数限制个", 
+	["sValue"]="45", 
+},
+["sSaveNoticeLmt"]={
+	["sKey"]="sSaveNoticeLmt", 
+	["sDesc"]="公告频道最多保留100", 
+	["sValue"]="100", 
+},
+["sGravity"]={
+	["sKey"]="sGravity", 
+	["sDesc"]="重力加速度", 
+	["sValue"]="-12", 
+},
+["sMoveupRate"]={
+	["sKey"]="sMoveupRate", 
+	["sDesc"]="向上的移动速度百分比", 
+	["sValue"]="1", 
+},
+["sMoveSkewUpRate"]={
+	["sKey"]="sMoveSkewUpRate", 
+	["sDesc"]="斜着走向上速度百分比", 
+	["sValue"]="0.6", 
+},
+["sMoveSkewRightRate"]={
+	["sKey"]="sMoveSkewRightRate", 
+	["sDesc"]="斜着走向右速度百分比", 
+	["sValue"]="1", 
+},
+["defaultShock"]={
+	["sKey"]="defaultShock", 
+	["sDesc"]="默认震屏参数", 
+	["sValue"]="1|0|2|90|0.1|1|0|9999", 
+},
+["sInitEnergy"]={
+	["sKey"]="sInitEnergy", 
+	["sDesc"]="初始体力", 
+	["sValue"]="20", 
+},
+["sLevelUpEnergy"]={
+	["sKey"]="sLevelUpEnergy", 
+	["sDesc"]="升级增加体力值", 
+	["sValue"]="2", 
+},
+["sEnergyRecoveryTime"]={
+	["sKey"]="sEnergyRecoveryTime", 
+	["sDesc"]="体力恢复时间（秒）", 
+	["sValue"]="10", 
+},
+["sEnergyRecoveryValue"]={
+	["sKey"]="sEnergyRecoveryValue", 
+	["sDesc"]="体力恢复值（每次）", 
+	["sValue"]="1", 
+},
+["sVigourMax"]={
+	["sKey"]="sVigourMax", 
+	["sDesc"]="竞技场活力的最大值", 
+	["sValue"]="10", 
+},
+["sVigourRecoveryTime"]={
+	["sKey"]="sVigourRecoveryTime", 
+	["sDesc"]="竞技场活力恢复时间（秒）", 
+	["sValue"]="60", 
+},
+["sVigourRecoveryValue"]={
+	["sKey"]="sVigourRecoveryValue", 
+	["sDesc"]="竞技场活力恢复值（每次）", 
+	["sValue"]="1", 
+},
+["sDramaX"]={
+	["sKey"]="sDramaX", 
+	["sDesc"]="剧情X时间(秒)", 
+	["sValue"]="0.5", 
+},
+["sDramaY"]={
+	["sKey"]="sDramaY", 
+	["sDesc"]="剧情Y时间(秒)", 
+	["sValue"]="8", 
+},
+["dramaActArgs1"]={
+	["sKey"]="dramaActArgs1", 
+	["sDesc"]="剧情对话动作参数1", 
+	["sValue"]="1|0|0|0", 
+},
+["dramaActArgs2"]={
+	["sKey"]="dramaActArgs2", 
+	["sDesc"]="剧情对话动作参数2", 
+	["sValue"]="0.8|0|0|0", 
+},
+["sCatchReady"]={
+	["sKey"]="sCatchReady", 
+	["sDesc"]="准备抓妖有10s", 
+	["sValue"]="chongWuDao_HuLuZhao_E", 
+},
+["sCatchDone"]={
+	["sKey"]="sCatchDone", 
+	["sDesc"]="收妖放完", 
+	["sValue"]="chongWuDao_HuLuZhao_shou_E", 
+},
+["sPlayerCatchEff"]={
+	["sKey"]="sPlayerCatchEff", 
+	["sDesc"]="抓妖时候主角特效", 
+	["sValue"]="chongWuDao_RenWuXuQi_E", 
+},
+["sCatchTime"]={
+	["sKey"]="sCatchTime", 
+	["sDesc"]="抓妖持续时间（秒）", 
+	["sValue"]="5", 
+},
+["sCatchEffectPosX"]={
+	["sKey"]="sCatchEffectPosX", 
+	["sDesc"]="抓妖特效偏移左边x", 
+	["sValue"]="0", 
+},
+["sCatchEffectPosY"]={
+	["sKey"]="sCatchEffectPosY", 
+	["sDesc"]="抓妖特效偏移左边y", 
+	["sValue"]="0", 
+},
+["sCatchEffectPosZ"]={
+	["sKey"]="sCatchEffectPosZ", 
+	["sDesc"]="抓妖特效偏移左边z", 
+	["sValue"]="0", 
+},
+["sHurtColorTime"]={
+	["sKey"]="sHurtColorTime", 
+	["sDesc"]="受击的时候变色的持续时间", 
+	["sValue"]="0.1", 
+},
+["sHurtColor"]={
+	["sKey"]="sHurtColor", 
+	["sDesc"]="受击时候的颜色", 
+	["sValue"]="1|0.1|0.1", 
+},
+["sSuperBodyColor"]={
+	["sKey"]="sSuperBodyColor", 
+	["sDesc"]="霸体颜色", 
+	["sValue"]="0.97|0.9|0.1", 
+},
+["sRigidBodyeColor"]={
+	["sKey"]="sRigidBodyeColor", 
+	["sDesc"]="刚体颜色", 
+	["sValue"]="1|0.1|0.1", 
+},
+["sIncibleBodyColor"]={
+	["sKey"]="sIncibleBodyColor", 
+	["sDesc"]="无敌颜色", 
+	["sValue"]="0.047|0.423|0.984", 
+},
+["sDieArgs"]={
+	["sKey"]="sDieArgs", 
+	["sDesc"]="死亡打飞效果参数", 
+	["sValue"]="70|130|0|0.2|0|1", 
+},
+["sDropWeightRangle1"]={
+	["sKey"]="sDropWeightRangle1", 
+	["sDesc"]="掉落权重区间1（%）", 
+	["sValue"]="10", 
+},
+["sDropWeightRangle2"]={
+	["sKey"]="sDropWeightRangle2", 
+	["sDesc"]="掉落权重区间2（%）", 
+	["sValue"]="25", 
+},
+["sDropWeightRangle3"]={
+	["sKey"]="sDropWeightRangle3", 
+	["sDesc"]="掉落权重区间3（%）", 
+	["sValue"]="40", 
+},
+["sDropWeightRangle4"]={
+	["sKey"]="sDropWeightRangle4", 
+	["sDesc"]="掉落权重区间4（%）", 
+	["sValue"]="70", 
+},
+["sDropWeightRangle5"]={
+	["sKey"]="sDropWeightRangle5", 
+	["sDesc"]="掉落权重区间5（%）", 
+	["sValue"]="1000", 
+},
+["sPrayTimesLimit"]={
+	["sKey"]="sPrayTimesLimit", 
+	["sDesc"]="许愿次数上限", 
+	["sValue"]="10", 
+},
+["sPrayCycle"]={
+	["sKey"]="sPrayCycle", 
+	["sDesc"]="许愿周期", 
+	["sValue"]="240", 
+},
+["sPrayDropRate"]={
+	["sKey"]="sPrayDropRate", 
+	["sDesc"]="白银青铜宝箱掉率", 
+	["sValue"]="75", 
+},
+["sCustomsBagDiamond"]={
+	["sKey"]="sCustomsBagDiamond", 
+	["sDesc"]="挂机找回遗失道具消耗钻石", 
+	["sValue"]="2", 
+},
+["sCustomsBag"]={
+	["sKey"]="sCustomsBag", 
+	["sDesc"]="挂机背包格子数量", 
+	["sValue"]="20", 
+},
+["sCustomsLoseBag"]={
+	["sKey"]="sCustomsLoseBag", 
+	["sDesc"]="挂机背包遗失道具数量", 
+	["sValue"]="0", 
+},
+["followDis"]={
+	["sKey"]="followDis", 
+	["sDesc"]="宠物跟随距离", 
+	["sValue"]="100", 
+},
+["quickenFollowDis"]={
+	["sKey"]="quickenFollowDis", 
+	["sDesc"]="宠物加速跟随距离", 
+	["sValue"]="300", 
+},
+["quickenFollowSpeed"]={
+	["sKey"]="quickenFollowSpeed", 
+	["sDesc"]="宠物加速跟随速度加成", 
+	["sValue"]="50", 
+},
+["sAmendX"]={
+	["sKey"]="sAmendX", 
+	["sDesc"]="怪物保持距离时X轴额外修正范围", 
+	["sValue"]="100", 
+},
+["sAmendZ"]={
+	["sKey"]="sAmendZ", 
+	["sDesc"]="怪物保持距离时Z轴额外修正范围", 
+	["sValue"]="100", 
+},
+["sDrawCardVIP"]={
+	["sKey"]="sDrawCardVIP", 
+	["sDesc"]="免费翻牌的VIP等级", 
+	["sValue"]="5", 
+},
+["sHomeMusic"]={
+	["sKey"]="sHomeMusic", 
+	["sDesc"]="主城背景音乐", 
+	["sValue"]="home", 
+},
+["sStartGameMusic"]={
+	["sKey"]="sStartGameMusic", 
+	["sDesc"]="开始游戏的音乐", 
+	["sValue"]="login", 
+},
+["sHookPro"]={
+	["sKey"]="sHookPro", 
+	["sDesc"]="伙伴挂机加成（万分比）", 
+	["sValue"]="10000", 
+},
+["preMapTrigger"]={
+	["sKey"]="preMapTrigger", 
+	["sDesc"]="触发器", 
+	["sValue"]="MapTrigger", 
+},
+["preBattleDrama"]={
+	["sKey"]="preBattleDrama", 
+	["sDesc"]="战斗剧情框", 
+	["sValue"]="PF_EDrama", 
+},
+["preBloodFly"]={
+	["sKey"]="preBloodFly", 
+	["sDesc"]="飘血", 
+	["sValue"]="PF_BattleLabel", 
+},
+["preLockScreen"]={
+	["sKey"]="preLockScreen", 
+	["sDesc"]="锁屏阻挡", 
+	["sValue"]="Map_ZuDang_1", 
+},
+["preLockScreenEffect"]={
+	["sKey"]="preLockScreenEffect", 
+	["sDesc"]="锁屏阻挡物特效ID", 
+	["sValue"]="suoPingZuDang_E", 
+},
+["preLockScreenEffectClear"]={
+	["sKey"]="preLockScreenEffectClear", 
+	["sDesc"]="锁屏阻挡物消失特效", 
+	["sValue"]="suoPingXiaoShi_E", 
+},
+["preLockScreenEffectClearSound"]={
+	["sKey"]="preLockScreenEffectClearSound", 
+	["sDesc"]="锁屏阻挡物消失声音", 
+	["sValue"]="UI_Click1", 
+},
+["bornEffectDelayTime"]={
+	["sKey"]="bornEffectDelayTime", 
+	["sDesc"]="刷怪特效时延迟出现时间", 
+	["sValue"]="0.5", 
+},
+["sCatchPartnerRangle1"]={
+	["sKey"]="sCatchPartnerRangle1", 
+	["sDesc"]="收妖权重1（%）", 
+	["sValue"]="10", 
+},
+["sCatchPartnerRangle2"]={
+	["sKey"]="sCatchPartnerRangle2", 
+	["sDesc"]="收妖权重2（%）", 
+	["sValue"]="25", 
+},
+["sCatchPartnerRangle3"]={
+	["sKey"]="sCatchPartnerRangle3", 
+	["sDesc"]="收妖权重3（%）", 
+	["sValue"]="40", 
+},
+["sCatchPartnerRangle4"]={
+	["sKey"]="sCatchPartnerRangle4", 
+	["sDesc"]="收妖权重4（%）", 
+	["sValue"]="70", 
+},
+["sCatchPartnerRangle5"]={
+	["sKey"]="sCatchPartnerRangle5", 
+	["sDesc"]="收妖权重5（%）", 
+	["sValue"]="1000", 
+},
+["sRecoverEnergyPropId"]={
+	["sKey"]="sRecoverEnergyPropId", 
+	["sDesc"]="增加体力需要的物品id", 
+	["sValue"]="104", 
+},
+["autoBattleAigapTime"]={
+	["sKey"]="autoBattleAigapTime", 
+	["sDesc"]="主角自动战斗AI间隔时间", 
+	["sValue"]="0.1", 
+},
+["sTeamFullExp"]={
+	["sKey"]="sTeamFullExp", 
+	["sDesc"]="组队满员增加经验百分比", 
+	["sValue"]="100", 
+},
+["sNomalColor"]={
+	["sKey"]="sNomalColor", 
+	["sDesc"]="非主角受击飘血-正常", 
+	["sValue"]="0.98|0.98|0.98|0.58|0.58|0.58", 
+},
+["sMissColor"]={
+	["sKey"]="sMissColor", 
+	["sDesc"]="非主角受击飘血-闪避", 
+	["sValue"]="0.98|0.98|0.98|0.58|0.58|0.58", 
+},
+["sCritColor"]={
+	["sKey"]="sCritColor", 
+	["sDesc"]="非主角受击飘血-暴击", 
+	["sValue"]="1|0.78|0.08|0.93|0.14|0.12", 
+},
+["sHolyColor"]={
+	["sKey"]="sHolyColor", 
+	["sDesc"]="飘血神圣一击", 
+	["sValue"]="1|0.94|0.6|1|0.43|0.03", 
+},
+["sMineColor"]={
+	["sKey"]="sMineColor", 
+	["sDesc"]="主角受击飘血-正常", 
+	["sValue"]="0.98|0.95|0.94|0.93|0.14|0.05", 
+},
+["sMineMissColor"]={
+	["sKey"]="sMineMissColor", 
+	["sDesc"]="主角受击飘血-闪避", 
+	["sValue"]="0.98|0.95|0.94|0.93|0.14|0.05", 
+},
+["sMineCritColor"]={
+	["sKey"]="sMineCritColor", 
+	["sDesc"]="主角受击飘血-暴击", 
+	["sValue"]="0.98|0.95|0.94|0.93|0.14|0.05", 
+},
+["sHPReturnColor"]={
+	["sKey"]="sHPReturnColor", 
+	["sDesc"]="回血", 
+	["sValue"]="0.11|0.64|0.03|0.89|0.98|0.48", 
+},
+["sMPReturnColor"]={
+	["sKey"]="sMPReturnColor", 
+	["sDesc"]="回蓝", 
+	["sValue"]="0.03|0.43|1|0.55|0.96|0.93", 
+},
+["sBloodFromPoint"]={
+	["sKey"]="sBloodFromPoint", 
+	["sDesc"]="飘血起始点高度缩放", 
+	["sValue"]="0.4", 
+},
+["sBloodMiddlePoint"]={
+	["sKey"]="sBloodMiddlePoint", 
+	["sDesc"]="飘血中间点高度缩放", 
+	["sValue"]="0.9", 
+},
+["sMonsterRedBar"]={
+	["sKey"]="sMonsterRedBar", 
+	["sDesc"]="红色血条", 
+	["sValue"]="1|0.49|0.49|1", 
+},
+["sMonsterGreenBar"]={
+	["sKey"]="sMonsterGreenBar", 
+	["sDesc"]="绿色血条", 
+	["sValue"]="0.63|0.89|0.57|0.8", 
+},
+["sAlphaViolet"]={
+	["sKey"]="sAlphaViolet", 
+	["sDesc"]="紫色血条背景", 
+	["sValue"]="1|1|1|0.8", 
+},
+["sAlphaRed"]={
+	["sKey"]="sAlphaRed", 
+	["sDesc"]="红色血条背景", 
+	["sValue"]="1|1|1|0.8", 
+},
+["sAlphaOrange"]={
+	["sKey"]="sAlphaOrange", 
+	["sDesc"]="黄色血条背景", 
+	["sValue"]="1|1|1|0.8", 
+},
+["sAlphaBlue"]={
+	["sKey"]="sAlphaBlue", 
+	["sDesc"]="蓝色血条背景", 
+	["sValue"]="1|1|1|0.8", 
+},
+["sAlphaGreen"]={
+	["sKey"]="sAlphaGreen", 
+	["sDesc"]="绿色血条背景", 
+	["sValue"]="1|1|1|0.8", 
+},
+["sMovingThreshold"]={
+	["sKey"]="sMovingThreshold", 
+	["sDesc"]="相机移动阈值(废弃)", 
+	["sValue"]="0.3", 
+},
+["sStandThreshold"]={
+	["sKey"]="sStandThreshold", 
+	["sDesc"]="相机非移动阈值(废弃)", 
+	["sValue"]="2.5000000000000001E-2", 
+},
+["sSpeedUpPercent"]={
+	["sKey"]="sSpeedUpPercent", 
+	["sDesc"]="移动时相机加速百分比", 
+	["sValue"]="1.2", 
+},
+["sSpeedDownPercent"]={
+	["sKey"]="sSpeedDownPercent", 
+	["sDesc"]="移动时相机减速百分比", 
+	["sValue"]="0.8", 
+},
+["sSpeedStand"]={
+	["sKey"]="sSpeedStand", 
+	["sDesc"]="站立时相机修正速度", 
+	["sValue"]="3", 
+},
+["sAtuoBackHomeLimit"]={
+	["sKey"]="sAtuoBackHomeLimit", 
+	["sDesc"]="自动回城时间", 
+	["sValue"]="15", 
+},
+["sChallengeRefreshTime"]={
+	["sKey"]="sChallengeRefreshTime", 
+	["sDesc"]="挑战宝箱刷新对手时间", 
+	["sValue"]="9,20", 
+},
+["sDirectOpenTime"]={
+	["sKey"]="sDirectOpenTime", 
+	["sDesc"]="根据开启祈愿宝箱剩余时间", 
+	["sValue"]="10", 
+},
+["sDefeatDiamond"]={
+	["sKey"]="sDefeatDiamond", 
+	["sDesc"]="复活所需元宝", 
+	["sValue"]="20", 
+},
+["sDefeatTime"]={
+	["sKey"]="sDefeatTime", 
+	["sDesc"]="复活所需时间", 
+	["sValue"]="20", 
+},
+}
+ return a;

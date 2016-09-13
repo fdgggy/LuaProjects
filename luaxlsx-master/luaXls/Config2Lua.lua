@@ -141,6 +141,7 @@ function Excel.excel2Lua(excelName, tData)
 					isWrite = false
 					newJson[excelName]=md5Str;
 				else
+					print("nnnnnnnnnnnnnnnnnnnn")
 					newJson[excelName]=md5Str;
 				end
 		else

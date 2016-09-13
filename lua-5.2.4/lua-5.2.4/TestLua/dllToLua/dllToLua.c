@@ -8,12 +8,11 @@ lAddXY(lua_State *L) {
 }
 //一定要导出，不然找不到，编译成dll时要和 lua52.dll结合编译
 #ifdef _WIN32
-extern "C" __declspec(dllexport) int luaopen_dllToLua(lua_State *L) 
-{
+__declspec(dllexport) int luaopen_dllToLua(lua_State *L) 
 #else
-extern "C" int luaopen_dllToLua(lua_State *L)
-{
+int luaopen_dllToLua(lua_State *L)
 #endif
+{
 	luaL_checkversion(L);
 	luaL_Reg l[] = {
 		{ "AddXY", lAddXY },

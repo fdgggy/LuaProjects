@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllToLua.cpp">
+    <ClCompile Include="dllToLua.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

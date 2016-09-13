@@ -1,0 +1,8 @@
+﻿    正在创建库 Release\md5.lib 和对象 Release\md5.exp
+  正在生成代码
+  0 of 14 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+  已完成代码的生成
+    0 functions had inline decision re-evaluated but remain unchanged
+  md5.vcxproj -> F:\LuaProject\LuaProjects\lua-5.2.4\lua-5.2.4\TestLua\md5\Release\md5.dll
+  md5.vcxproj -> Release\md5.pdb (Full PDB)

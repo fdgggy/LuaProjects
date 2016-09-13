@@ -2,7 +2,7 @@
 -- $Id: md5.lua,v 1.4 2006/08/21 19:24:21 carregal Exp $
 ----------------------------------------------------------------------------
 
-local core = require"md5.core"
+local core = require"md5.md5"
 local string = require"string"
 
 
